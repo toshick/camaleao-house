@@ -1,0 +1,64 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/Users/toshick/go/src/github.com/toshick/camaleao-house"
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "camaleao-house",
+      "version": "1.0.0",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/toshick/camaleao-house.git"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/toshick/camaleao-house/issues"
+      },
+      "homepage": "https://github.com/toshick/camaleao-house#readme",
+      "directories": {
+        "doc": "docs"
+      },
+      "description": ""
+    },
+    "prefix": "/Users/toshick/go/src/github.com/toshick/camaleao-house"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/toshick/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/toshick/go/src/github.com/toshick/camaleao-house/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/toshick/go/src/github.com/toshick/camaleao-house",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:update-check": {
+    "currentVersion": "6.30.0",
+    "latestVersion": "7.1.0"
+  },
+  "5 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "camaleaohouse-src is not in the npm registry, or you have no permission to fetch it.\n\nAn authorization header was used: Bearer e0f1[hidden]",
+    "request": {
+      "authHeaderValue": "Bearer e0f10fda-0913-4260-bda3-6866ac8e3b58",
+      "url": "https://registry.npmjs.org/camaleaohouse-src"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "camaleaohouse-src",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/camaleaohouse-src: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/camaleaohouse-src: Not Found - 404\n    at RetryOperation._fn (/Users/toshick/.nodenv/versions/16.11.1/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.0/node_modules/pnpm/dist/pnpm.cjs:85659:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}

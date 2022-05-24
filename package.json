@@ -1,0 +1,24 @@
+{
+  "name": "camaleao-house-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm run build",
+    "preview": "http-server docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toshick/camaleao-house.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toshick/camaleao-house/issues"
+  },
+  "homepage": "https://github.com/toshick/camaleao-house#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "description": ""
+}
